@@ -26,8 +26,8 @@ const Home = () => {
             exit='hidden'
             className='h1'
           >
-            Transforming Ideas <br /> Into{' '}
-            <span className='text-accent'>Digital Reality</span>
+            Grand <br />Quality{' '}
+            <span className='text-accent'>Technology,LLC.</span>
           </motion.h1>
           {/* subtitle */}
           <motion.p
@@ -37,9 +37,13 @@ const Home = () => {
             exit='hidden'
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-            nostrum quam reprehenderit vero, tenetur voluptatem nulla aut
-            aspernatur dolores ut.
+            Welcome to Grand Quality Technology, LLC – your trusted partner for expert tech solutions. 
+            We specialize in software engineering, telecommunications repair, and mobile app development, 
+            offering high-quality services at competitive prices. Whether you need OS restoration, laptop or phone repair, 
+            iPhone unlocks,website design, mobile app development, or game system repairs, 
+            we provide reliable and efficient solutions tailored to your needs
+
+
           </motion.p>
           {/* btn */}
           <div className='flex justify-center xl:hidden relative'>

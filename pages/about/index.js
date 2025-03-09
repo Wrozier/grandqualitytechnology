@@ -20,28 +20,32 @@ import {
 //  about data
 export const aboutData = [
   {
-    title: 'skills',
+    title: "skills",
     info: [
       {
-        title: 'Web Development',
+        title: "Web Development",
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
+          { id: "html", icon: <FaHtml5 /> },
+          { id: "css", icon: <FaCss3 /> },
+          { id: "js", icon: <FaJs /> },
+          { id: "react", icon: <FaReact /> },
+          { id: "nextjs", icon: <SiNextdotjs /> },
+          { id: "framer", icon: <SiFramer /> },
+          { id: "wordpress", icon: <FaWordpress /> },
         ],
       },
       {
-        title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        title: "UI/UX Design",
+        icons: [
+          { id: "figma", icon: <FaFigma /> },
+          { id: "adobexd", icon: <SiAdobexd /> },
+          { id: "photoshop", icon: <SiAdobephotoshop /> },
+        ],
       },
     ],
   },
   {
-    title: 'awards',
+    title: 'certs',
     info: [
       {
         title: 'Webby Awards - Honoree',
@@ -136,9 +140,12 @@ const About = () => {
             exit='hidden'
             className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
           >
-            10 years ago, I began freelancing as a developer. Since then, I've
-            done remote work for agencies, counsulted for startups, and
-            collaborated on digital products for business and consumer use.
+            <p>
+                  10 years ago, I began freelancing as a developer. Since then, I&apos;ve
+                  done remote work for agencies, consulted for startups, and
+                  collaborated on digital products for business and consumer use.
+            </p>
+
           </motion.p>
           {/* counters */}
           <motion.div
@@ -226,7 +233,7 @@ const About = () => {
                   <div className='flex gap-x-4'>
                     {/* icons */}
                     {item.icons?.map((icon, itemIndex) => {
-                      return <div className='text-2xl text-white'>{icon}</div>;
+                       <div key={index} className='text-2xl text-white'>{icon}</div>
                     })}
                   </div>
                 </div>
