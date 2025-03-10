@@ -40,7 +40,7 @@ export const aboutData = [
           { id: "figma", icon: <FaFigma /> },
           { id: "adobexd", icon: <SiAdobexd /> },
           { id: "photoshop", icon: <SiAdobephotoshop /> },
-          { id: "logoist 2", icon: <SiAdobephotoshop /> },
+          
         ],
       },
     ],
@@ -57,43 +57,65 @@ export const aboutData = [
         stage: '2025',
       },
       {
+        title: 'AWS Cloud Technical Essentials',
+        stage: '2024',
+      },
+      {
         title: 'Apple Developer Certificate (Apple, Inc.)',
         stage: '2023',
       },
+      {
+        title: 'Microsoft Azure Cloud Native Certification (Microsoft)',
+        stage: '2022',
+      },
+      {
+        title: 'Microsoft Refurbished Licensed (Microsoft)',
+        stage: '2018',
+      },
+      
     ],
   },
   {
     title: 'experience',
     info: [
       {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
+        title: 'Guidewire Cloud Developer  - Cognizant P&C Insurance ',
+        stage: '2020 - 2022',
       },
       {
-        title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
+        title: 'Full Stack Developer  -  Cognixia , Inc',
+        stage: '2018 - 2020',
       },
       {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
+        title: 'Software Engineer  -  Candor USA Insurance',
+        stage: '2017 - 2018',
       },
+      {
+        title: 'Software Engineer - Achievers of Today and Tomorrow, Inc.',
+        stage: '2015 - 2017',
+      }
     ],
   },
   {
     title: 'credentials',
     info: [
       {
+        title: 'Certified Scrum Master (Scrum Alliance)',
+        stage: '2024',
+      },
+      {
         title: 'Hacker Rank Java Cert (Online): (5e8b2a2ca32f)',
         stage: '2023',
       },
       {
-        title: 'Computer Science Degree - Savannah State University',
+        title: 'B.S Computer Science - Savannah State University',
         stage: '2019',
       },
       {
-        title: 'Certified Scrum Master (Scrum Alliance)',
-        stage: '2024',
+        title: 'Blue Ribbon Honoree, (Blue Ribbon) - Savannah State University',
+        stage: '2017',
       },
+      
     ],
   },
 ];
@@ -136,7 +158,7 @@ const About = () => {
             className='h2'
           >
             Captivating <span className='text-accent'>stories</span> birth
-            magnificent designs.
+            uniuqe designs.
           </motion.h2>
           <motion.p
             variants={fadeIn('right', 0.4)}
