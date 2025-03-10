@@ -40,6 +40,7 @@ export const aboutData = [
           { id: "figma", icon: <FaFigma /> },
           { id: "adobexd", icon: <SiAdobexd /> },
           { id: "photoshop", icon: <SiAdobephotoshop /> },
+          { id: "logoist 2", icon: <SiAdobephotoshop /> },
         ],
       },
     ],
@@ -48,12 +49,16 @@ export const aboutData = [
     title: 'certs',
     info: [
       {
-        title: 'Webby Awards - Honoree',
-        stage: '2011 - 2012',
+        title: 'Cybfun.1.0: Cybersecurity Basics',
+        stage: '2025',
       },
       {
-        title: 'Adobe Design Achievement Awards - Finalist',
-        stage: '2009 - 2010',
+        title: 'AI0121EN: Introduction to Generative AI',
+        stage: '2025',
+      },
+      {
+        title: 'Apple Developer Certificate (Apple, Inc.)',
+        stage: '2023',
       },
     ],
   },
@@ -78,16 +83,16 @@ export const aboutData = [
     title: 'credentials',
     info: [
       {
-        title: 'Web Development - ABC University, LA, CA',
-        stage: '2011',
+        title: 'Hacker Rank Java Cert (Online): (5e8b2a2ca32f)',
+        stage: '2023',
       },
       {
-        title: 'Computer Science Diploma - AV Technical Institute',
-        stage: '2009',
+        title: 'Computer Science Degree - Savannah State University',
+        stage: '2019',
       },
       {
-        title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-        stage: '2006',
+        title: 'Certified Scrum Master (Scrum Alliance)',
+        stage: '2024',
       },
     ],
   },

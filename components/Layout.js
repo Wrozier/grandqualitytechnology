@@ -1,5 +1,5 @@
 // fonts
-import { Sora } from '@next/font/google';
+import { Sora } from 'next/font/google'; // Corrected import path
 
 // font settings
 const sora = Sora({
