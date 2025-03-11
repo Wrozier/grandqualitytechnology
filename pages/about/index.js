@@ -8,6 +8,7 @@ import {
   FaReact,
   FaWordpress,
   FaFigma,
+
 } from 'react-icons/fa';
 
 import {
@@ -32,6 +33,7 @@ export const aboutData = [
           { id: "nextjs", icon: <SiNextdotjs /> },
           { id: "framer", icon: <SiFramer /> },
           { id: "wordpress", icon: <FaWordpress /> },
+          
         ],
       },
       {
@@ -49,7 +51,7 @@ export const aboutData = [
     title: 'certs',
     info: [
       {
-        title: 'Cybfun.1.0: Cybersecurity Basics',
+        title: 'Cybfun.1.0 Cybersecurity Basics',
         stage: '2025',
       },
       {
@@ -65,12 +67,16 @@ export const aboutData = [
         stage: '2023',
       },
       {
+        title: 'Hacker Rank Java Cert(5e8b2a2ca32f)',
+        stage: '2023',
+      },
+      {
         title: 'Microsoft Azure Cloud Native Certification (Microsoft)',
         stage: '2022',
       },
       {
         title: 'Microsoft Refurbished Licensed (Microsoft)',
-        stage: '2018',
+        stage: '2018 - 2019',
       },
       
     ],
@@ -79,19 +85,19 @@ export const aboutData = [
     title: 'experience',
     info: [
       {
-        title: 'Guidewire Cloud Developer  - Cognizant P&C Insurance ',
+        title: 'Guidewire Cloud Developer Cognizant P&C Insurance ',
         stage: '2020 - 2022',
       },
       {
-        title: 'Full Stack Developer  -  Cognixia , Inc',
+        title: 'SpringBoot Developer  Cognixia , Inc',
         stage: '2018 - 2020',
       },
       {
-        title: 'Software Engineer  -  Candor USA Insurance',
+        title: 'Software Engineer  Candor USA Insurance',
         stage: '2017 - 2018',
       },
       {
-        title: 'Software Engineer - Achievers of Today and Tomorrow, Inc.',
+        title: 'Software Engineer  Achievers of Today and Tomorrow, Inc.',
         stage: '2015 - 2017',
       }
     ],
@@ -103,10 +109,7 @@ export const aboutData = [
         title: 'Certified Scrum Master (Scrum Alliance)',
         stage: '2024',
       },
-      {
-        title: 'Hacker Rank Java Cert (Online): (5e8b2a2ca32f)',
-        stage: '2023',
-      },
+      
       {
         title: 'B.S Computer Science - Savannah State University',
         stage: '2019',
