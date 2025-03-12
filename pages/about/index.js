@@ -8,6 +8,7 @@ import {
   FaReact,
   FaWordpress,
   FaFigma,
+ 
 
 } from 'react-icons/fa';
 
@@ -33,6 +34,7 @@ export const aboutData = [
           { id: "nextjs", icon: <SiNextdotjs /> },
           { id: "framer", icon: <SiFramer /> },
           { id: "wordpress", icon: <FaWordpress /> },
+       
           
         ],
       },
