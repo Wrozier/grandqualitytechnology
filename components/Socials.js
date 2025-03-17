@@ -3,9 +3,9 @@ import Link from 'next/link';
 
 // icons
 import {
-  RiYoutubeLine,
+  RiLinkedinBoxLine,
+  RiGithubLine,
   RiInstagramLine,
-  RiFacebookLine,
   RiDribbbleLine,
   RiBehanceLine,
   RiPinterestLine,
@@ -15,10 +15,10 @@ const Socials = () => {
   return (
     <div className='flex items-center gap-x-5 text-lg'>
       <Link href={'https://www.linkedin.com/in/william-rozier-900902100/'} className='hover:text-accent transition-all duration-300'>
-        <RiYoutubeLine />
+        <RiLinkedinBoxLine />
       </Link>
       <Link href={'https://github.com/Wrozier?tab=repositories'} className='hover:text-accent transition-all duration-300'>
-        <RiFacebookLine />
+        <RiGithubLine />
       </Link>
       <Link href={'https://www.instagram.com/gqdevops?igsh=MTVqOWdtaHJva3Yzbw%3D%3D&utm_source=qr'} className='hover:text-accent transition-all duration-300'>
         <RiInstagramLine />
